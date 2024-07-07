@@ -1,0 +1,192 @@
+[
+{
+    "model": "courses.course",
+    "pk": 31,
+    "fields": {
+        "title": "Raise stand whether.",
+        "description": "Arm big dinner hand upon fight woman.\nSuccessful rather Congress window give head. Safe cover subject final society. Generation free catch last.",
+        "is_online": false,
+        "price": "809.15",
+        "created_by": 43,
+        "image_url": "https://placekitten.com/891/516",
+        "subscribed_users": [
+            41,
+            44,
+            45,
+            48,
+            50
+        ]
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 32,
+    "fields": {
+        "title": "Finally black cup main.",
+        "description": "Whatever guy paper real friend language. Painting thing ago situation ever. We believe night.",
+        "is_online": true,
+        "price": "370.01",
+        "created_by": 49,
+        "image_url": "https://dummyimage.com/135x167",
+        "subscribed_users": [
+            42,
+            45,
+            46,
+            47,
+            48
+        ]
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 33,
+    "fields": {
+        "title": "Environment question better yes sure.",
+        "description": "Gas right against. Product explain face project between assume. Information which history international.\nRise lay skill style professor. Term stuff onto structure standard heart.",
+        "is_online": false,
+        "price": "518.33",
+        "created_by": 47,
+        "image_url": "https://placekitten.com/618/91",
+        "subscribed_users": [
+            42,
+            44,
+            45,
+            46,
+            48
+        ]
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 34,
+    "fields": {
+        "title": "Middle hit matter movie tough.",
+        "description": "Toward himself day. Manage man interview word issue soldier.\nUnit writer manager out hit fact four son.\nCold foot stage also. Job point red us each. Though employee thought.",
+        "is_online": false,
+        "price": "928.84",
+        "created_by": 49,
+        "image_url": "https://picsum.photos/615/626",
+        "subscribed_users": [
+            44,
+            45,
+            46,
+            49,
+            50
+        ]
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 35,
+    "fields": {
+        "title": "Television month responsibility turn.",
+        "description": "Ready direction true four adult field take. Attack thought something art break response work. Question form interesting only.\nSo clear prepare list value serve ten.",
+        "is_online": false,
+        "price": "230.59",
+        "created_by": 49,
+        "image_url": "https://picsum.photos/808/214",
+        "subscribed_users": [
+            42,
+            43,
+            44,
+            45,
+            49
+        ]
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 36,
+    "fields": {
+        "title": "Today adult movie forget.",
+        "description": "Position let wrong on think peace model technology. Catch home spend word make agreement result. Court very easy production toward.",
+        "is_online": true,
+        "price": "106.79",
+        "created_by": 49,
+        "image_url": "https://placekitten.com/747/787",
+        "subscribed_users": [
+            41,
+            43,
+            44,
+            48,
+            50
+        ]
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 37,
+    "fields": {
+        "title": "Government suffer issue.",
+        "description": "Part inside these. Property technology forget quite go.\nTrial tend sit material enough. Pull final system fast themselves available perform. Worker field material listen.",
+        "is_online": true,
+        "price": "404.34",
+        "created_by": 47,
+        "image_url": "https://dummyimage.com/438x477",
+        "subscribed_users": [
+            44,
+            46,
+            48,
+            49,
+            50
+        ]
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 38,
+    "fields": {
+        "title": "Establish artist allow discussion.",
+        "description": "He who there much president recognize nothing. Many recent no site when son new.\nArtist often forward final. Second capital analysis those.",
+        "is_online": true,
+        "price": "111.57",
+        "created_by": 49,
+        "image_url": "https://placekitten.com/982/100",
+        "subscribed_users": [
+            41,
+            44,
+            46,
+            47,
+            49
+        ]
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 39,
+    "fields": {
+        "title": "Light including score.",
+        "description": "Turn box child age forward. Answer opportunity check impact happen develop.\nSong phone run soon free. Quite question yard everybody account decision head.",
+        "is_online": true,
+        "price": "772.93",
+        "created_by": 46,
+        "image_url": "https://placekitten.com/729/80",
+        "subscribed_users": [
+            43,
+            44,
+            45,
+            48,
+            49
+        ]
+    }
+},
+{
+    "model": "courses.course",
+    "pk": 40,
+    "fields": {
+        "title": "Series them line.",
+        "description": "Oil performance return reveal soon own. Trade hotel director various become first decade. Entire prevent area capital success city know.",
+        "is_online": false,
+        "price": "180.64",
+        "created_by": 49,
+        "image_url": "https://placekitten.com/650/668",
+        "subscribed_users": [
+            41,
+            45,
+            46,
+            47,
+            50
+        ]
+    }
+}
+]

@@ -1,0 +1,9 @@
+<div href="{{ offer.url }}" class="p-4 bg-white dark:bg-gray-800 shadow rounded">
+    <div class="relative h-60 overflow-hidden flex">
+        <img src="{{ offer.image_url }}" alt="Job Listings" class="w-full w-full object-cover rounded mb-4 origin-top">
+        <div class="absolute inset-0 bg-gradient-to-b from-transparent to-white dark:to-black transition-all duration-300 ease-out hover:bg-gradient-to-b hover:from-transparent hover:to-black/90 rounded-lg"></div>
+    </div>
+    <h3 class="text-xl font-bold my-4">{{ offer.title }}</h3>
+    <p>{{ offer.description }}</p>
+    <a href="{{ offer.url }}" class="text-blue-500 hover:underline">{{ offer.link_text }}</a>
+</div>

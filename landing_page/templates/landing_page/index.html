@@ -1,0 +1,100 @@
+{% extends 'cake_project_core/base.html' %}
+
+{% load static %}
+
+{% block title %}
+    Cake Decorating Platform
+{% endblock %}
+
+{% block content %}
+
+    <main class="container mx-auto py-12">
+        {% comment %} {% include 'landing_page/partials/hero.html' %} {% endcomment %}
+        {% include 'landing_page/partials/hero.html' %}
+
+        <section class="mt-12">
+            <h2 class="text-2xl font-bold mb-4">What We Offer</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {% for offer in offers %}
+                    {% include 'landing_page/partials/offer.html' with offer=offer %}
+                {% endfor %}
+            </div>
+        </section>
+        
+        <section class="mt-12">
+            <h2 class="text-2xl font-bold mb-4">Why Choose Us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="p-4 bg-white dark:bg-gray-800 shadow rounded">
+                    <h3 class="text-xl font-bold mb-2">Expert Instructors</h3>
+                    <p>Learn from the best in the industry. Our instructors are experienced professionals who bring real-world insights to their teaching.</p>
+                </div>
+                <div class="p-4 bg-white dark:bg-gray-800 shadow rounded">
+                    <h3 class="text-xl font-bold mb-2">Comprehensive Curriculum</h3>
+                    <p>Our courses cover everything from basic techniques to advanced decorating skills. Whether you're a beginner or an experienced decorator, there's something for you.</p>
+                </div>
+                <div class="p-4 bg-white dark:bg-gray-800 shadow rounded">
+                    <h3 class="text-xl font-bold mb-2">Flexible Learning</h3>
+                    <p>Choose from online courses you can take at your own pace or in-person workshops for hands-on learning. Our platform fits your schedule.</p>
+                </div>
+                <div class="p-4 bg-white dark:bg-gray-800 shadow rounded">
+                    <h3 class="text-xl font-bold mb-2">Job Placement Assistance</h3>
+                    <p>We help you find job opportunities that match your skills and preferences. Our platform connects you with top employers in the industry.</p>
+                </div>
+            </div>
+        </section>
+        <section class="mt-12">
+            <h2 class="text-2xl font-bold mb-4">Frequently Asked Questions</h2>
+            <div class="bg-white dark:bg-gray-800 shadow rounded p-4">
+                <h3 class="text-xl font-bold mb-2">Is there a money-back guarantee?</h3>
+                <p>Yes, we offer a 30-day money-back guarantee on all our courses. If you're not satisfied, you can get a full refund within 30 days of purchase.</p>
+                <h3 class="text-xl font-bold mb-2 mt-4">How can I contact support?</h3>
+                <p>You can contact our support team via email at <a href="mailto:support@cakedecorating.com" class="hover:underline">support@cakedecorating.com</a>. We're here to help you with any questions or concerns.</p>
+                <h3 class="text-xl font-bold mb-2 mt-4">Are the courses suitable for beginners?</h3>
+                <p>Absolutely! Our courses are designed for all skill levels. Beginners can start with our foundational courses, while advanced decorators can explore specialized techniques.</p>
+                <h3 class="text-xl font-bold mb-2 mt-4">What payment methods do you accept?</h3>
+                <p>We accept all major credit cards, PayPal, and bank transfers. Our payment process is secure and easy to use.</p>
+            </div>
+        </section>
+        <section class="mt-12">
+            <h2 class="text-2xl font-bold mb-4">Customer Testimonials</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="p-4 bg-white dark:bg-gray-800 shadow rounded">
+                    <p>"This platform has transformed my cake decorating skills! The courses are easy to follow and the community is incredibly supportive." - Sarah J.</p>
+                </div>
+                <div class="p-4 bg-white dark:bg-gray-800 shadow rounded">
+                    <p>"Thanks to the job listings, I found my dream job at a top bakery. Highly recommend this platform to all cake decorators." - Mike T.</p>
+                </div>
+                <div class="p-4 bg-white dark:bg-gray-800 shadow rounded">
+                    <p>"The instructors are fantastic, and the courses are very comprehensive. I've learned so much in a short period." - Emily R.</p>
+                </div>
+                <div class="p-4 bg-white dark:bg-gray-800 shadow rounded">
+                    <p>"The flexible learning options make it easy to fit courses into my busy schedule. Love this platform!" - Daniel W.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-white dark:bg-gray-800 py-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Cake Decorating Platform. All rights reserved.</p>
+            <p><a href="mailto:contact@cakedecorating.com" class="hover:underline">contact@cakedecorating.com</a></p>
+        </div>
+    </footer>
+
+    <script src="{% static 'vendors/tailwind/tailwind-3.4.1.min.js' %}"></script>
+    <script src="{% static 'vendors/flowbite/flowbite-2.4.1.min.js' %}"></script>
+
+    <script>
+        const themeToggleBtn = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        themeToggleBtn.addEventListener('click', () => {
+            body.classList.toggle('dark');
+            localStorage.setItem('theme', body.classList.contains('dark') ? 'dark' : 'light');
+        });
+
+        if (localStorage.getItem('theme') === 'dark') {
+            body.classList.add('dark');
+        }
+    </script>
+
+{% endblock content %}

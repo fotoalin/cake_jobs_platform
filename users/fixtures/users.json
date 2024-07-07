@@ -1,0 +1,222 @@
+[
+{
+    "model": "users.customuser",
+    "pk": 41,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$9edZgy82F6j0RwQZyoFuQV$XNUzZHVXK4FCJFNjGEXKMT16ho0qsavY3Z8pQ6+O3PY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "michele30",
+        "first_name": "",
+        "last_name": "",
+        "email": "scott40@example.net",
+        "date_joined": "2024-07-07T18:24:24.200Z",
+        "is_decorator": true,
+        "is_instructor": false,
+        "is_subscriber": true,
+        "is_admin": false,
+        "is_staff": true,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 42,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$a3rp1VTF9kWKEov34c5utt$sajrVRpmUL9FC7ACq2p6gAmY1gpNGiUC1Qld5gtkwkw=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "melissarodriguez",
+        "first_name": "",
+        "last_name": "",
+        "email": "pereztodd@example.net",
+        "date_joined": "2024-07-07T18:24:24.406Z",
+        "is_decorator": false,
+        "is_instructor": true,
+        "is_subscriber": true,
+        "is_admin": false,
+        "is_staff": true,
+        "is_active": false,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 43,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$PLFWR2hSdP7D7MWBMZZpgZ$pWkmiepl0JRUbQ6oH9XTvGPyfhPQIfL2Qj7BV/sbRiE=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "kathleen33",
+        "first_name": "",
+        "last_name": "",
+        "email": "xparker@example.org",
+        "date_joined": "2024-07-07T18:24:24.608Z",
+        "is_decorator": false,
+        "is_instructor": true,
+        "is_subscriber": true,
+        "is_admin": false,
+        "is_staff": true,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 44,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$9tF8QMx9DNKmUSqnaoY6ow$w51IafDAAQTzR+s4Cr/X4EcUlBjiRbi6sFrH3JAbV4U=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "rebecca44",
+        "first_name": "",
+        "last_name": "",
+        "email": "woodmorgan@example.com",
+        "date_joined": "2024-07-07T18:24:24.806Z",
+        "is_decorator": true,
+        "is_instructor": false,
+        "is_subscriber": false,
+        "is_admin": false,
+        "is_staff": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 45,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$9az9lGi2OJIwPxxSLNKkKl$5eg7YAgu9NdexxHhYKU0PbPLcRW0vIuki1d8xYYjxi8=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "vsmith",
+        "first_name": "",
+        "last_name": "",
+        "email": "curtisgonzales@example.org",
+        "date_joined": "2024-07-07T18:24:25.001Z",
+        "is_decorator": true,
+        "is_instructor": true,
+        "is_subscriber": false,
+        "is_admin": false,
+        "is_staff": false,
+        "is_active": false,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 46,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$X7Y9z6VkC0BuS4cHYdirXV$6nhpJuBrMSg1t4tiG0hDVWKkKKSwZsIA+WVnATawaSU=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "pricelisa",
+        "first_name": "",
+        "last_name": "",
+        "email": "donald99@example.org",
+        "date_joined": "2024-07-07T18:24:25.200Z",
+        "is_decorator": true,
+        "is_instructor": false,
+        "is_subscriber": false,
+        "is_admin": true,
+        "is_staff": true,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 47,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$9GUOOvupD5Ta8gcm7G776y$Dtuy6N98yZ/KtytIn6Zshg49LLvJMuNGH1t9/r7cHsg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "cruzcharles",
+        "first_name": "",
+        "last_name": "",
+        "email": "abooker@example.org",
+        "date_joined": "2024-07-07T18:24:25.400Z",
+        "is_decorator": true,
+        "is_instructor": true,
+        "is_subscriber": false,
+        "is_admin": true,
+        "is_staff": true,
+        "is_active": false,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 48,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$i073R7Rde6ux6HJJISeW61$HyxI01jMhcymMorg2n+K0KnWjEUWssYP6tHkBuXr1V4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "lfrancis",
+        "first_name": "",
+        "last_name": "",
+        "email": "huertarita@example.com",
+        "date_joined": "2024-07-07T18:24:25.603Z",
+        "is_decorator": false,
+        "is_instructor": false,
+        "is_subscriber": true,
+        "is_admin": false,
+        "is_staff": true,
+        "is_active": false,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 49,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$rIFcjSBzBsE01CYse44yLq$+9UjimGgSjTFiRMazMzT7LeABqEGCZw2hqUvYM/7Pu0=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "mirandapaul",
+        "first_name": "",
+        "last_name": "",
+        "email": "james81@example.net",
+        "date_joined": "2024-07-07T18:24:25.801Z",
+        "is_decorator": true,
+        "is_instructor": false,
+        "is_subscriber": true,
+        "is_admin": true,
+        "is_staff": false,
+        "is_active": true,
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "users.customuser",
+    "pk": 50,
+    "fields": {
+        "password": "pbkdf2_sha256$720000$cQ5ZESctQt1BqbCGn2R1Yg$qnnWeoLPRGWnG4dHcFPCzws5vBLgeUUiYbIeTJpI/gg=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "wubrandon",
+        "first_name": "",
+        "last_name": "",
+        "email": "umiller@example.com",
+        "date_joined": "2024-07-07T18:24:25.998Z",
+        "is_decorator": false,
+        "is_instructor": false,
+        "is_subscriber": false,
+        "is_admin": true,
+        "is_staff": true,
+        "is_active": false,
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

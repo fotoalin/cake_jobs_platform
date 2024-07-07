@@ -1,0 +1,172 @@
+[
+{
+    "model": "jobs.job",
+    "pk": 31,
+    "fields": {
+        "title": "Community arts worker",
+        "description": "Billion even blue give spend soldier a. Attack easy write rest whose.\nUse call lay son through charge.",
+        "location": "Jameschester",
+        "created_by": 45,
+        "subscribed_users": [
+            41,
+            42,
+            46,
+            47,
+            49
+        ]
+    }
+},
+{
+    "model": "jobs.job",
+    "pk": 32,
+    "fields": {
+        "title": "Civil engineer, consulting",
+        "description": "Month save order idea son my country. Later wear throw room center.\nEvidence hope east lawyer maybe. Foot admit cover remain show decide. Us live pretty thousand war away technology.",
+        "location": "Lake Amanda",
+        "created_by": 47,
+        "subscribed_users": [
+            41,
+            43,
+            46,
+            47,
+            50
+        ]
+    }
+},
+{
+    "model": "jobs.job",
+    "pk": 33,
+    "fields": {
+        "title": "Audiological scientist",
+        "description": "Analysis low by past may seem play. Might home opportunity employee society reality. Entire seven month.",
+        "location": "Port John",
+        "created_by": 44,
+        "subscribed_users": [
+            43,
+            44,
+            47,
+            49,
+            50
+        ]
+    }
+},
+{
+    "model": "jobs.job",
+    "pk": 34,
+    "fields": {
+        "title": "Oceanographer",
+        "description": "Police any at box left off nation. Travel try bring industry understand suffer.\nBeautiful cold general company few Republican position. Policy traditional sometimes race ground see resource cultural.",
+        "location": "West Mark",
+        "created_by": 44,
+        "subscribed_users": [
+            42,
+            45,
+            47,
+            48,
+            50
+        ]
+    }
+},
+{
+    "model": "jobs.job",
+    "pk": 35,
+    "fields": {
+        "title": "Actor",
+        "description": "Activity already indeed lawyer feeling. Place natural compare it discussion party property. Of fact wonder.",
+        "location": "Craigberg",
+        "created_by": 41,
+        "subscribed_users": [
+            44,
+            46,
+            47,
+            49,
+            50
+        ]
+    }
+},
+{
+    "model": "jobs.job",
+    "pk": 36,
+    "fields": {
+        "title": "Gaffer",
+        "description": "Democrat begin finally partner style. Product able want much.\nLong miss care in save ask future five. Have sometimes hold cell involve behind save.",
+        "location": "Morenoport",
+        "created_by": 48,
+        "subscribed_users": [
+            41,
+            45,
+            46,
+            47,
+            50
+        ]
+    }
+},
+{
+    "model": "jobs.job",
+    "pk": 37,
+    "fields": {
+        "title": "Environmental consultant",
+        "description": "Loss surface cost affect dog outside. State executive word carry candidate management family. Buy growth him last arrive work point.\nLight above life. Price example such of help.",
+        "location": "Jodyshire",
+        "created_by": 43,
+        "subscribed_users": [
+            42,
+            43,
+            45,
+            47,
+            49
+        ]
+    }
+},
+{
+    "model": "jobs.job",
+    "pk": 38,
+    "fields": {
+        "title": "Data scientist",
+        "description": "Morning exactly media go news report democratic. Together million several from person. Blue something name.\nClearly way window hand. Low them produce travel others rather pay.",
+        "location": "East Tonyaville",
+        "created_by": 47,
+        "subscribed_users": [
+            41,
+            42,
+            44,
+            46,
+            48
+        ]
+    }
+},
+{
+    "model": "jobs.job",
+    "pk": 39,
+    "fields": {
+        "title": "Production engineer",
+        "description": "Situation music company would usually job father. Bill improve step prepare.\nShe blue view allow. Ago apply future million or. Either amount others forward.",
+        "location": "West Tracy",
+        "created_by": 49,
+        "subscribed_users": [
+            41,
+            44,
+            45,
+            47,
+            50
+        ]
+    }
+},
+{
+    "model": "jobs.job",
+    "pk": 40,
+    "fields": {
+        "title": "Trade union research officer",
+        "description": "Each tough body Congress. Main like major financial technology theory central.\nSignificant family group city kind they. Many but direction one.",
+        "location": "West Tonifort",
+        "created_by": 45,
+        "subscribed_users": [
+            41,
+            42,
+            44,
+            47,
+            48
+        ]
+    }
+}
+]

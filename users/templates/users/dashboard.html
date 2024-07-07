@@ -1,0 +1,55 @@
+{% extends 'cake_project_core/base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<main class="py-6">
+    <section class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md mb-6">
+        <h1 class="text-3xl font-bold mb-4">Welcome, {{ user.username }}</h1>
+        
+        <!-- Jobs Section -->
+        <div class="mb-6">
+            <h2 class="text-2xl font-bold mb-4">Your Jobs</h2>
+            <ul id="jobs-list" class="space-y-4">
+                {% for job in jobs %}
+                    <li class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow-md flex justify-between items-center">
+                        <span class="text-lg font-semibold">{{ job.title }}</span>
+                        <a href="{% url 'jobs:job_detail' job.id %}" class="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-500">View</a>
+                    </li>
+                {% empty %}
+                    <li class="text-gray-700 dark:text-gray-300">No jobs found.</li>
+                {% endfor %}
+            </ul>
+        </div>
+        
+        <!-- Courses Section -->
+        <div>
+            <h2 class="text-2xl font-bold mb-4">Your Courses</h2>
+
+            <ul id="courses-list" class="space-y-4">
+                {% for progress in enrolled_courses %}
+                    <li class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg shadow-md flex justify-between gap-4 items-center">
+                        <div class="flex gap-4 items-center">
+                            <img src="{{ progress.get_image_url }}" alt="{{ progress.title }}" class="w-16 h-16 rounded-full mr-4">
+                            <span class="text-lg font-semibold">{{ progress.title }}</span>
+                        </div>
+                        <div class="flex gap-2 justify-end">
+                            {% if progress.progress == 100 %}
+                                <span class="text-green-500 dark:text-green-400">Completed</span>
+                            {% else %}
+                                <span class="text-yellow-500 dark:text-yellow-400">In Progress</span>
+                            {% endif %}
+                            {% if progress.progress %}
+                                <span class="text-sm text-gray-600 dark:text-gray-400">{{ progress.progress }}% complete</span>
+                            {% endif %}
+                            <a href="{% url 'courses:course_detail' pk=progress.id %}" class="text-blue-500 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-500">View</a>
+                        </div>
+                    </li>
+                {% empty %}
+                    <li class="text-gray-700 dark:text-gray-300">No courses found.</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </section>
+</main>
+{% endblock content %}

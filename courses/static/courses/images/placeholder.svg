@@ -1,0 +1,11 @@
+<svg width="256" height="256" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <rect width="256" height="256" fill="#f0f0f0"/>
+  <g transform="translate(64 64)">
+    <rect x="24" y="48" width="144" height="96" rx="8" ry="8" fill="#e0e0e0"/>
+    <line x1="32" y1="32" x2="128" y2="32" stroke="#ccc" stroke-width="2"/>
+    <line x1="32" y1="64" x2="128" y2="64" stroke="#ccc" stroke-width="2"/>
+    <circle cx="80" cy="80" r="40" fill="#e0e0e0"/>
+    <path d="M64 92 L96 92 L80 72 Z" fill="#ccc"/>
+  </g>
+  <text x="50%" y="80%" font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#333" text-anchor="middle">No Image Available</text>
+</svg>
